@@ -108,7 +108,7 @@ public class CSVTableView extends Application {
                         data.add(newRow);
                     }
                 } catch (IOException ex) {
-                    showErrorDialog("Error loading CSV", "An error occurred while loading the CSV file.");
+                    showErrorDialog("שגיאה בניסיון לפתיחת הקובץ", "נוצרה שגיאה במהלך ניסיון לפתיחת הקובץ");
                 }
             }
         });

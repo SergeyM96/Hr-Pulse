@@ -127,7 +127,7 @@ public class MonthlyShiftEmployeeController implements ReportsNavigators {
             Class.forName("com.mysql.jdbc.Driver");
 
             // Establish a connection to the MySQL database
-            Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/hrpulsedb", "root", "0523239955");
+            Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/pulsedb", "root", "hrpulse123");
 
             // Path to the JR XML file (JasperReports XML template)
             String reportPath = "MonthlyShiftReport.jrxml";
