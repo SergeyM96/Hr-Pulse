@@ -11,8 +11,9 @@
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" nodeOrientation="RIGHT_TO_LEFT" prefHeight="520.0" prefWidth="745.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hrpulse.Controllers.ReportsControllers.MonthlyShiftEmployeeController">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" nodeOrientation="RIGHT_TO_LEFT" prefHeight="520.0" prefWidth="745.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hrpulse.Controllers.ReportsControllers.ShiftReportByYearController">
 
     <bottom>
         <ButtonBar prefHeight="40.0" prefWidth="200.0" BorderPane.alignment="CENTER">
@@ -46,13 +47,16 @@
     <top>
         <HBox alignment="CENTER_LEFT" spacing="20.0" BorderPane.alignment="CENTER">
             <children>
-                <Label style="-fx-font-size: 14.0; -fx-font-weight: bold;" text="בחר חודש : ">
+                <Label style="-fx-font-size: 14.0; -fx-font-weight: bold;" text="בחר שנה : ">
                     <HBox.margin>
                         <Insets left="20.0" />
                     </HBox.margin>
+               <font>
+                  <Font name="David" size="16.0" />
+               </font>
                 </Label>
 
-                <ChoiceBox fx:id="cb_monthSelect" prefWidth="150.0" />
+                <ChoiceBox fx:id="cb_yearSelect" prefWidth="150.0" />
             </children>
             <padding>
                 <Insets top="40.0" />

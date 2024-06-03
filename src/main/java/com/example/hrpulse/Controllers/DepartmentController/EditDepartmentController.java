@@ -144,19 +144,14 @@ public class EditDepartmentController implements Navigators {
                 // Call the method in HR_Pulse to update the department
                 com.example.hrpulse.Services.Database.DatabaseManager.performDatabaseOperations(selectedDepartment, true);
 
-                // Refresh the choice box
-                departments = retrieveDepartments();
-                List<String> departmentNames = retrieveDepartmentNames(departments);
-                cb_departmentShow.getItems().clear();
-                cb_departmentShow.getItems().addAll(departmentNames);
-
                 // Display confirmation
-                showConfirmationDialog("Removed successfully!", "המחלקה הוסרה בהצלחה !");
+                showConfirmationDialog("Updated successfully!", "המחלקה עודכנה בהצלחה !");
             } else {
                 // Display error
-                showErrorDialog("Error", "שגיאה במחיקת המחלקה !");
+                showErrorDialog("Error", "שגיאה בעידכון המחלקה !");
             }
         }
+//        ReportDepartmentController.refreshDepartmentList();
     }
 
     /**
@@ -173,12 +168,6 @@ public class EditDepartmentController implements Navigators {
                 // Call the method in HR_Pulse to remove the department
                 com.example.hrpulse.Services.Database.DatabaseManager.performDatabaseOperations(selectedDepartment, false);
 
-                // Refresh the choice box
-                departments = retrieveDepartments();
-                List<String> departmentNames = retrieveDepartmentNames(departments);
-                cb_departmentShow.getItems().clear();
-                cb_departmentShow.getItems().addAll(departmentNames);
-
                 // Display confirmation
                 showConfirmationDialog("Removed successfully!", "המחלקה הוסרה בהצלחה !");
             } else {
@@ -186,6 +175,7 @@ public class EditDepartmentController implements Navigators {
                 showErrorDialog("Error", "שגיאה במחיקת המחלקה !");
             }
         }
+//        ReportDepartmentController.refreshDepartmentList();
     }
 
     // Define the retrieveDepartmentNames method

@@ -77,9 +77,7 @@ public class EditEmployeeShiftController implements EmployeeNavigators {
     /**
      * Initializes the EditEmployeeShiftController.
      */
-    public EditEmployeeShiftController() {
-
-    }
+    public EditEmployeeShiftController() {}
 
     /**
      * Handles the upload CSV file action.
@@ -278,7 +276,7 @@ public class EditEmployeeShiftController implements EmployeeNavigators {
                 uploadCsvFile.removeRowFromCsvAndDatabase(selectedRow);
                 tableViewCSVData.getItems().remove(selectedRow);
                 tableViewCSVData.getSelectionModel().clearSelection();
-                showAlert("השורה ננמחקה בהצלחה.");
+                showAlert("השורה נמחקה בהצלחה.");
 
             } catch (Exception e) {
                 e.printStackTrace();
