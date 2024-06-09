@@ -41,7 +41,7 @@ public class UserController implements Navigators, EmployeeNavigators, ReportsNa
 
         if (currentUser != null) {
             // Set the text of the label_userName to the user's name
-            label_userName.setText("User: " + currentUser.getFirstName());
+            label_userName.setText( currentUser.getFirstName()  + " :שם משתמש " );
 
             // Apply different styles based on the user's role
             if ("headOfDepartment".equals(currentUser.getEmployeeRole())) {

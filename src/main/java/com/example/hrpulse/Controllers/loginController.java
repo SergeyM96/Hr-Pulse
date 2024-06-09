@@ -94,12 +94,12 @@ public class loginController implements Navigators {
 
         // get the local employee that we declare if not found it returns null.
         Employee employee = employees.get(username);
-        System.out.print("employee");
-        System.out.println(employee);
+       // System.out.print("employee");
+        //System.out.println(employee);
         // get the employee from the database if not found return null.
         Employee employeeDb = getEmployeeByUsernameAndPassword(username, password);
-        System.out.print("employeeDb");
-        System.out.println(employeeDb);
+        //  System.out.print("employeeDb");
+        //System.out.println(employeeDb);
 
 
         if (employeeDb != null) {

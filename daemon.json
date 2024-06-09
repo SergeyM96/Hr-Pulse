@@ -1,0 +1,12 @@
+{
+  "builder": {
+    "gc": {
+      "defaultKeepStorage": "20GB",
+      "enabled": true
+    }
+  },
+  "experimental": false,
+  "hosts": [
+    "tcp://0.0.0.0:2375"
+  ]
+}

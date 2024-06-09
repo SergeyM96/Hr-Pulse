@@ -1,0 +1,40 @@
+# version: '3.9'
+
+#services:
+#  app:
+#    image: openjdk:21
+#    container_name: java_app
+#    ports:
+#      - "8080:8080"
+ #   volumes:
+  #    - .:/app
+  #  working_dir: /app
+  #  command: mvn spring-boot:run
+
+ # db:
+ #   image: mysql:8
+ #   container_name: mysql_db
+ #   environment:
+ #     MYSQL_ROOT_PASSWORD: hrpulse123
+ #     MYSQL_DATABASE: pulsedb
+ #   ports:
+ #     - "3307:3306"
+
+version: '3.9'
+
+services:
+  app:
+    image: hr-pulse-app
+    container_name: java_app
+    ports:
+      - "8080:8080"
+    command: ["java", "-jar", "target/HR_Pulse.jar"]
+
+  db:
+    image: mysql:8
+    container_name: mysql_db
+    environment:
+      MYSQL_ROOT_PASSWORD: hrpulse123
+      MYSQL_DATABASE: pulsedb
+    ports:
+      - "3307:3306"
