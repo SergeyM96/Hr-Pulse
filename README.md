@@ -4,7 +4,8 @@
 <!-- Description -->
 <p align="center">
   A modern and user-friendly Human Resource Management Information System (HRMIS) designed for small to medium-sized businesses.
-  
+</p>
+
 To bypass the database registration, enter the following in the login screen:
 in ת.ז section you can enter-
 "admin_m" meaning it will open the managers login screen.
@@ -13,9 +14,9 @@ in ת.ז section you can enter-
 
 for all of the above the password will be: 1234
 
-<strong>PLEASE CHECK THE *GETTING STARTED* SECTION BEFORE</strong>
+PLEASE CHECK THE *GETTING STARTED* SECTION BEFORE
   
-</p>
+
 
 <!-- DOC -->
 <h2 align="center"> DOC </h2>
