@@ -6,18 +6,17 @@
   A modern and user-friendly Human Resource Management Information System (HRMIS) designed for small to medium-sized businesses.
 </p>
 
-To bypass the database registration, enter the following in the login screen:
-in ת.ז section you can enter-
-"admin_m" meaning it will open the managers login screen.
-"admin_h" meaning it will open the head of department login screen.
-"admin_s" meaning it will open the secretary login screen.
+To bypass the database registration, enter the following in the login screen:  
 
-for all of the above the password will be: 1234
+**In ת.ז section you can enter:**  
+- **"admin_m"** → Opens the manager's login screen.  
+- **"admin_h"** → Opens the head of department login screen.  
+- **"admin_s"** → Opens the secretary login screen.  
 
-PLEASE CHECK THE *GETTING STARTED* SECTION BEFORE
+For all of the above, the password will be: **1234**  
+
+**PLEASE CHECK THE <u>GETTING STARTED</u> SECTION BEFORE**
   
-
-
 <!-- DOC -->
 <h2 align="center"> DOC </h2>
 <p align="center">A <strong>Documentation</strong> file provided in the files section. It contains detailed information about the app, including its usage and diagrams.
