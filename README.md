@@ -15,7 +15,7 @@ To bypass the database registration, enter the following in the login screen:
 
 For all of the above, the password will be: **1234**  
 
-**PLEASE CHECK THE <u>GETTING STARTED</u> SECTION BEFORE**
+**PLEASE CHECK THE !! GETTING STARTED !! SECTION BEFORE**
   
 <!-- DOC -->
 <h2 align="center"> DOC </h2>
